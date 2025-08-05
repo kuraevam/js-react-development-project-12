@@ -1,7 +1,9 @@
 
+postinstall:
+	npm run postinstall
+
 build:
-	cd frontend && \
 	npm run build
 
 start:
-	npx start-server -s ./frontend/dist
+	npm run start
